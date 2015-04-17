@@ -1,6 +1,6 @@
 {
-  "name": "Tinnker",
-  "version": "0.0.1",
+  "name": "Drywall",
+  "version": "0.16.1",
   "private": true,
   "scripts": {
     "start": "grunt"

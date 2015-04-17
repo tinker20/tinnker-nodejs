@@ -1,37 +1,30 @@
 extends ../layouts/default
 
 block head
-  title Drywall is Running
+  title Tinnker
 
 block neck
   link(rel='stylesheet', href='/views/index.min.css?#{cacheBreaker}')
 
 block body
   div.jumbotron
-    h1 Success
+    h1 Welcome to Martbell!
     p.lead
-      | Your Node.js website and user system is running. May the force be with you.
+      | A local online marketplace.
       div
         a.btn.btn-primary.btn-lg(href='/signup/') Create an Account
-        |  or&nbsp;
-        a.btn.btn-warning.btn-lg(href='/login/forgot/') Reset Your Password
       div.clearfix
   div.row
-    div.col-sm-4
+    div.col-sm-6
       div.panel.panel-default
         div.panel-body
-          h3 About Us
-          p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
-          a.btn.btn-default.btn-block(href='/about/') Learn More
-    div.col-sm-4
-      div.panel.panel-default
-        div.panel-body
-          h3 Sign Up
-          p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
-          a.btn.btn-default.btn-block(href='/signup/') Learn More
-    div.col-sm-4
+         h3 Sign Up
+          p Create an account and start selling online.
+          a.btn.btn-primary.btn-lg(href='/signup/') Learn More
+    div.col-sm-6
       div.panel.panel-default
         div.panel-body
           h3 Contact Us
-          p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
-          a.btn.btn-default.btn-block(href='/contact/') Learn More
+          p In case of any queries feel free to contact us.
+          a.btn.btn-primary.btn-lg(href='/contact/') Learn More
+
