@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "grunt"
+    "start": "node app.js"
   },
   "dependencies": {
     "async": "^0.9.x",
@@ -52,5 +52,22 @@
     "jquery.cookie": "^1.x.x",
     "moment": "^2.x.x",
     "respond.js": "^1.x.x"
-  }
+  },
+  "description": "Implementation of www.tinnker.in using nodejs and mongodb",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinker20/tinnker-nodejs"
+  },
+  "keywords": [
+    "heroku",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Sayan Bhattacharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinker20/tinnker-nodejs/issues"
+  },
+  "homepage": "https://github.com/tinker20/tinnker-nodejs"
 }

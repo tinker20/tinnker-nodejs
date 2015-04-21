@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'v8-profiler@3.6.2-1' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ 'v8-profiler@3.6.2-1', null ]
+5 verbose cache add spec v8-profiler@3.6.2-1
+6 silly cache add parsed spec { raw: 'v8-profiler@3.6.2-1',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'v8-profiler',
+6 silly cache add   rawSpec: '3.6.2-1',
+6 silly cache add   spec: '3.6.2-1',
+6 silly cache add   type: 'version' }
+7 verbose addNamed v8-profiler@3.6.2-1
+8 silly addNamed semver.valid 3.6.2-1
+9 silly addNamed semver.validRange 3.6.2-1
+10 silly mapToRegistry name v8-profiler
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/v8-profiler
+14 verbose addNameVersion registry:https://registry.npmjs.org/v8-profiler not in flight; fetching
+15 verbose request uri https://registry.npmjs.org/v8-profiler
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 14:17:04
+18 verbose request id 8217592935f5df4d
+19 verbose etag "6I5V892X3ILADT3N8TAB4TBNC"
+20 http request GET https://registry.npmjs.org/v8-profiler
+21 http 304 https://registry.npmjs.org/v8-profiler
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 21 Apr 2015 08:47:07 GMT',
+22 silly get     server: 'Apache',
+22 silly get     via: '1.1 varnish',
+22 silly get     'last-modified': 'Tue, 21 Apr 2015 08:46:13 GMT',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     etag: '"6I5V892X3ILADT3N8TAB4TBNC"',
+22 silly get     age: '54',
+22 silly get     'x-served-by': 'cache-sn88-SIN',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '2',
+22 silly get     'x-timer': 'S1429606027.198573,VS0,VE0',
+22 silly get     vary: 'Accept',
+22 silly get     'content-length': '0',
+22 silly get     'keep-alive': 'timeout=10, max=50',
+22 silly get     connection: 'Keep-Alive' } ]
+23 verbose etag https://registry.npmjs.org/v8-profiler from cache
+24 verbose get saving v8-profiler to /home/tinker/.npm/registry.npmjs.org/v8-profiler/.cache.json
+25 silly cache afterAdd v8-profiler@3.6.2-1
+26 verbose afterAdd /home/tinker/.npm/v8-profiler/3.6.2-1/package/package.json not in flight; writing
+27 verbose afterAdd /home/tinker/.npm/v8-profiler/3.6.2-1/package/package.json written
+28 silly install resolved [ { name: 'v8-profiler',
+28 silly install resolved     version: '3.6.2-1',
+28 silly install resolved     description: 'node bindings for the v8 profiler',
+28 silly install resolved     homepage: 'http://github.com/dannycoates/v8-profiler',
+28 silly install resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+28 silly install resolved     keywords: [ 'profiler', 'inspector' ],
+28 silly install resolved     engines: { node: '>=0.6' },
+28 silly install resolved     main: 'v8-profiler',
+28 silly install resolved     _npmUser: { name: 'dannycoates', email: 'dannycoates@gmail.com' },
+28 silly install resolved     _id: 'v8-profiler@3.6.2-1',
+28 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+28 silly install resolved     dependencies: {},
+28 silly install resolved     devDependencies: {},
+28 silly install resolved     optionalDependencies: {},
+28 silly install resolved     _engineSupported: true,
+28 silly install resolved     _npmVersion: '1.1.21',
+28 silly install resolved     _nodeVersion: 'v0.6.19-pre',
+28 silly install resolved     _defaultsLoaded: true,
+28 silly install resolved     dist:
+28 silly install resolved      { shasum: '4e817753315b9b410624893d5a8b6114192366bf',
+28 silly install resolved        tarball: 'http://registry.npmjs.org/v8-profiler/-/v8-profiler-3.6.2-1.tgz' },
+28 silly install resolved     maintainers: [ [Object] ],
+28 silly install resolved     directories: {},
+28 silly install resolved     _shasum: '4e817753315b9b410624893d5a8b6114192366bf',
+28 silly install resolved     _resolved: 'https://registry.npmjs.org/v8-profiler/-/v8-profiler-3.6.2-1.tgz',
+28 silly install resolved     _from: 'v8-profiler@3.6.2-1',
+28 silly install resolved     gypfile: true,
+28 silly install resolved     readme: 'ERROR: No README data found!' } ]
+29 info install v8-profiler@3.6.2-1 into /home/tinker/Documents/node-heroku
+30 info installOne v8-profiler@3.6.2-1
+31 verbose installOne of v8-profiler to /home/tinker/Documents/node-heroku not in flight; installing
+32 verbose lock using /home/tinker/.npm/_locks/v8-profiler-edbb1a182cb60e40.lock for /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+33 silly install write writing v8-profiler 3.6.2-1 to /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+34 silly cache addNamed cb v8-profiler@3.6.2-1
+35 verbose unbuild node_modules/v8-profiler
+36 silly gentlyRm /home/tinker/Documents/node-heroku/node_modules/v8-profiler is being purged from base /home/tinker/Documents/node-heroku
+37 verbose gentlyRm don't care about contents; nuking /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+38 verbose tar unpack /home/tinker/.npm/v8-profiler/3.6.2-1/package.tgz
+39 verbose tar unpacking to /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+40 silly gentlyRm /home/tinker/Documents/node-heroku/node_modules/v8-profiler is being purged
+41 verbose gentlyRm don't care about contents; nuking /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry v8-profiler.js
+46 silly gunzTarPerm extractEntry profile.cc
+47 silly gunzTarPerm extractEntry graph_edge.cc
+48 silly gunzTarPerm extractEntry graph_edge.h
+49 silly gunzTarPerm extractEntry graph_node.cc
+50 silly gunzTarPerm extractEntry graph_node.h
+51 silly gunzTarPerm extractEntry heap_profiler.cc
+52 silly gunzTarPerm extractEntry heap_profiler.h
+53 silly gunzTarPerm extractEntry Makefile
+54 silly gunzTarPerm extractEntry binding.gyp
+55 silly gunzTarPerm extractEntry cpu_profiler.h
+56 silly gunzTarPerm extractEntry profile.h
+57 silly gunzTarPerm extractEntry profile_node.cc
+58 silly gunzTarPerm extractEntry profile_node.h
+59 silly gunzTarPerm extractEntry profiler.cc
+60 silly gunzTarPerm extractEntry readme.md
+61 silly gunzTarPerm extractEntry snapshot.cc
+62 silly gunzTarPerm extractEntry snapshot.h
+63 silly gunzTarPerm extractEntry cpu_profiler.cc
+64 silly gunzTarPerm extractEntry wscript
+65 info preinstall v8-profiler@3.6.2-1
+66 silly install resolved []
+67 verbose about to build /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+68 info build /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+69 verbose linkStuff [ false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   '/home/tinker/Documents/node-heroku/node_modules' ]
+70 info linkStuff v8-profiler@3.6.2-1
+71 verbose linkBins v8-profiler@3.6.2-1
+72 verbose linkMans v8-profiler@3.6.2-1
+73 verbose rebuildBundles v8-profiler@3.6.2-1
+74 info install v8-profiler@3.6.2-1
+75 verbose unsafe-perm in lifecycle false
+76 info v8-profiler@3.6.2-1 Failed to exec install script
+77 verbose unlock done using /home/tinker/.npm/_locks/v8-profiler-edbb1a182cb60e40.lock for /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+78 verbose stack Error: v8-profiler@3.6.2-1 install: `node-gyp rebuild`
+78 verbose stack Exit status 1
+78 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+78 verbose stack     at EventEmitter.emit (events.js:110:17)
+78 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+78 verbose stack     at ChildProcess.emit (events.js:110:17)
+78 verbose stack     at maybeClose (child_process.js:1015:16)
+78 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+79 verbose pkgid v8-profiler@3.6.2-1
+80 verbose cwd /home/tinker/Documents/node-heroku
+81 error Linux 3.11.0-26-generic
+82 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "v8-profiler@3.6.2-1"
+83 error node v0.12.2
+84 error npm  v2.7.4
+85 error code ELIFECYCLE
+86 error v8-profiler@3.6.2-1 install: `node-gyp rebuild`
+86 error Exit status 1
+87 error Failed at the v8-profiler@3.6.2-1 install script 'node-gyp rebuild'.
+87 error This is most likely a problem with the v8-profiler package,
+87 error not with npm itself.
+87 error Tell the author that this fails on your system:
+87 error     node-gyp rebuild
+87 error You can get their info via:
+87 error     npm owner ls v8-profiler
+87 error There is likely additional logging output above.
+88 verbose exit [ 1, true ]
+89 verbose unbuild node_modules/v8-profiler
+90 info preuninstall v8-profiler@3.6.2-1
+91 info uninstall v8-profiler@3.6.2-1
+92 verbose unbuild rmStuff v8-profiler@3.6.2-1 from /home/tinker/Documents/node-heroku/node_modules
+93 info postuninstall v8-profiler@3.6.2-1
+94 silly gentlyRm /home/tinker/Documents/node-heroku/node_modules/v8-profiler is being purged from base /home/tinker/Documents/node-heroku
+95 verbose gentlyRm don't care about contents; nuking /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+96 silly vacuum-fs purging /home/tinker/Documents/node-heroku/node_modules/v8-profiler
+97 silly vacuum-fs quitting because other entries in /home/tinker/Documents/node-heroku/node_modules
